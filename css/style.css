@@ -1,0 +1,404 @@
+body{
+    font-family:"Hind Vadodara","Comic Sans MS", cursive, sans-serif ,"Palatino Linotype", "Book Antiqua", Palatino, serif;
+     position: relative;
+}
+
+hr{
+	border-top: 1px dotted #8c8b8b;
+}
+
+  .affix {
+      top:0;
+      margin-left: -15px;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+.navbar{
+    margin-bottom: 0px;
+}
+
+.branding{
+    margin: 10px 0;
+}
+
+.navbar-inverse{
+    background-color: #ADC620;
+    border: none;
+}
+
+.navbar-toggle, .navbar-inverse{
+    border-color: white !important;
+}
+
+.navbar-inverse .navbar-brand{
+    color: #101010;
+    font-weight: bold;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #101010;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 780px) {
+    .follow {
+        display: none;
+    }
+}
+
+.follow{
+    padding-top: 20px;
+}
+
+.f{
+    margin: 0px;
+}
+
+.f:hover{
+    background-color: black;  
+}
+
+.navbar-right{
+    padding-right: 10px;
+}
+
+/* start preloader */
+.preloader
+	{
+		position: fixed;
+  		top: 0;
+  		left: 0;
+  		width: 100%;
+  		height: 100%;
+  		z-index: 99999;
+  		display: -webkit-box;
+  		display: -webkit-flex;
+  		display: -ms-flexbox;
+  		display: flex;
+  		-webkit-flex-flow: row nowrap;
+  		    -ms-flex-flow: row nowrap;
+  		        flex-flow: row nowrap;
+  		-webkit-box-pack: center;
+  		-webkit-justify-content: center;
+  		    -ms-flex-pack: center;
+  		        justify-content: center;
+  		-webkit-box-align: center;
+  		-webkit-align-items: center;
+  		    -ms-flex-align: center;
+  		        align-items: center;
+  		background: none repeat scroll 0 0 #ffffff;
+	}
+.sk-spinner-wave.sk-spinner 
+	{
+  		width: 50px;
+  		height: 30px;
+  		text-align: center;
+  		font-size: 10px; 
+  	}
+.sk-spinner-wave div 
+	{
+  		background-color: #333;
+  		height: 100%;
+  		width: 6px;
+  		display: inline-block;
+         -webkit-animation: sk-waveStretchDelay 1.2s infinite ease-in-out;
+                 animation: sk-waveStretchDelay 1.2s infinite ease-in-out;
+         
+    }
+.sk-spinner-wave .sk-rect1 
+	{
+          -webkit-animation-delay: -2.4s;
+                  animation-delay: -2.4s; 
+      }    
+    
+.sk-spinner-wave .sk-rect2 
+	{
+          -webkit-animation-delay: -2.3s;
+                  animation-delay: -2.3s; 
+      }
+.sk-spinner-wave .sk-rect3 
+	{
+          -webkit-animation-delay: -2.2s;
+                  animation-delay: -2.2s; 
+     }
+.sk-spinner-wave .sk-rect4 
+	{
+          -webkit-animation-delay: -2.1s;
+                  animation-delay: -2.1s;
+     }
+.sk-spinner-wave .sk-rect5 
+	{
+          -webkit-animation-delay: -2.0s;
+                  animation-delay: -2.0s; 
+     }
+
+@-webkit-keyframes sk-waveStretchDelay {
+  0%, 40%, 100% {
+            -webkit-transform: scaleY(0.4);
+                    transform: scaleY(0.4); }
+
+  20% {
+            -webkit-transform: scaleY(1);
+                    transform: scaleY(1); } }
+
+@keyframes sk-waveStretchDelay {
+  0%, 40%, 100% {
+            -webkit-transform: scaleY(0.4);
+                    transform: scaleY(0.4); }
+
+  20% {
+            -webkit-transform: scaleY(1);
+                    transform: scaleY(1); } }
+/* end preloader */
+
+/* start home */
+#home
+	{
+		background: url('../img/drug-recovery.jpg') no-repeat;
+                color: black;
+		background-size: cover;
+		padding-top: 30px;
+		padding-bottom: 100px;
+		min-height: 650px;
+	}
+#home h1
+	{
+		font-weight: 300;
+		font-size: 65px;
+		padding-bottom: 10px;
+	}
+#home h1 span
+	{
+		color: #0991DF;
+		font-weight: bold;
+	}
+#home .btn
+	{
+                margin-left: 400px;
+		background: transparent;
+		border-radius: 10px;
+		color: black;
+                border-color: black;
+		font-size: 16px;
+		font-weight: bold;
+		margin-top: -25px;
+		width: 180px;
+		height: 60px;
+		padding-top: 18px;
+		-webkit-transition: all 0.4s ease-in-out;
+		        transition: all 0.4s ease-in-out;
+	}
+#home .btn:hover
+	{
+		background: #0991DF;
+		border-color: transparent;
+	}
+.element {
+        font-weight: bold;
+	height: 100px;
+	font-size: 20px;
+}
+/* end home */
+
+.abtclr{
+        background-color: #00bfff;
+        border-radius: 10px;
+}
+
+.abtb{
+        background-color: #d8f5ff;
+        padding-bottom: 40px;
+}
+
+.visclr{
+        background-color: #C51162;
+        border-radius: 10px;
+}
+
+.visb{
+        background-color:#F8BBD0;
+        padding-bottom: 40px;
+}
+
+.galclr{
+        background-color: #ffbf00;
+        border-radius: 10px;
+        margin-bottom: 0;
+}
+.galb{
+        background-color:#ffe59a;
+        padding-bottom: 40px;
+}
+
+.conclr{
+        background-color: #BDBDBD;
+        border-radius: 10px;
+        margin-bottom: 0;
+}
+.conb{
+        background-color:#F5F5F5;
+        padding-bottom: 160px;
+}
+
+#about
+	{
+                margin-top: 20px;
+                color: black;
+                background-size: cover;
+                padding-top: 53px;
+		padding-bottom: 10px;
+		min-height: 650px;
+	}
+
+#vision{
+                margin-top: 20px;
+                color: black;
+                background-size: cover;
+                padding-top: 53px;
+		padding-bottom: 10px;
+		min-height: 650px;
+	}
+
+#gallery{
+                margin-top: 20px;
+                color: black;
+                background-size: cover;
+                padding-top: 53px;
+		padding-bottom: 10px;
+		min-height: 650px;
+	}
+
+#contact{
+                margin-top: 20px;
+                color: black;
+                background-size: cover;
+                padding-top: 53px;
+		padding-bottom: 10px;
+		min-height: 650px;
+	}
+        
+        
+        
+/*Gallery*/
+.container12{
+	margin:6% auto;
+	width: 210px;
+	height: 140px;
+	position: relative;
+	perspective: 1000px;
+}
+.carousel{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	transform-style: preserve-3d;
+	animation: rotation 20s infinite linear;
+}
+.carousel:hover{
+	animation-play-state: paused;
+}
+.carousel figure{
+	display: block;
+	position: absolute;
+	width: 90%;
+	height: 50%px;
+	left: 10px;
+	top: 10px;
+	background: black;
+	overflow: hidden;
+	border: solid 5px black;
+}
+.carousel figure:nth-child(1) {transform: rotateY(0deg) translateZ(288px);}
+.carousel figure:nth-child(2) { transform: rotateY(40deg) translateZ(288px);}
+.carousel figure:nth-child(3) { transform: rotateY(80deg) translateZ(288px);}
+.carousel figure:nth-child(4) { transform: rotateY(120deg) translateZ(288px);}
+.carousel figure:nth-child(5) { transform: rotateY(160deg) translateZ(288px);}
+.carousel figure:nth-child(6) { transform: rotateY(200deg) translateZ(288px);}
+.carousel figure:nth-child(7) { transform: rotateY(240deg) translateZ(288px);}
+.carousel figure:nth-child(8) { transform: rotateY(280deg) translateZ(288px);}
+.carousel figure:nth-child(9) { transform: rotateY(320deg) translateZ(288px);}
+
+img{
+	cursor: pointer;
+	transition: all .5s ease;
+}
+img:hover{
+	-webkit-filter: grayscale(0);
+  transform: scale(1.2,1.2);
+}
+
+@keyframes rotation{
+	from{
+		transform: rotateY(0deg);
+	}
+	to{
+		transform: rotateY(360deg);
+	}
+}
+
+#myBtn {
+    width: 67px;
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 40px; /* Place the button at the bottom of the page */
+    right: 10px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+}
+
+#myBtn:hover {
+    box-shadow: 2px 2px 1px #888888;
+}
+
+footer{
+    margin: 0 -15px;
+}
+
+/* start 768 media quires */
+@media only screen and ( max-width: 767px ) {
+	#home
+		{
+			min-height: 300px;
+			padding-top: 80px;
+			padding-bottom: 60px;
+		}
+	#home h1
+		{
+			font-size: 52px;
+		}
+		
+/* end 768 media quires */
+
+/* start 360 media quires */
+@media only screen and ( max-width: 360px ) {
+	#home
+		{
+			min-height: 200px;
+			padding-top: 60px;
+			padding-bottom: 40px;
+		}
+	#home h1
+		{
+			font-size: 32px;
+		}
+
+}
+/* end 360 media quires */
+
+#pad1{
+    padding-top: 10px;
+    padding-right: 15px;
+}
+
+@media only screen and ( max-width: 780px ) {
+    #home .btn{
+        margin-left: 0px;
+    }
+	.navbar-collapse{
+    background-color: #deff28;
+	}
+}
